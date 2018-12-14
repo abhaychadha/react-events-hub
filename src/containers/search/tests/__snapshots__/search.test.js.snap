@@ -1,0 +1,2469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Search Should Render Correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <WithStyles(Connect(Search))>
+    <Connect(Search)
+      classes={
+        Object {
+          "appBar": "Connect-Search--appBar-2",
+          "card": "Connect-Search--card-9",
+          "cardContent": "Connect-Search--cardContent-11",
+          "cardGrid": "Connect-Search--cardGrid-8",
+          "cardMedia": "Connect-Search--cardMedia-10",
+          "heroButtons": "Connect-Search--heroButtons-6",
+          "heroContent": "Connect-Search--heroContent-5",
+          "heroUnit": "Connect-Search--heroUnit-4",
+          "hidden": "Connect-Search--hidden-1",
+          "icon": "Connect-Search--icon-3",
+          "layout": "Connect-Search--layout-7",
+          "typography": "Connect-Search--typography-12",
+        }
+      }
+    >
+      <Search
+        classes={
+          Object {
+            "appBar": "Connect-Search--appBar-2",
+            "card": "Connect-Search--card-9",
+            "cardContent": "Connect-Search--cardContent-11",
+            "cardGrid": "Connect-Search--cardGrid-8",
+            "cardMedia": "Connect-Search--cardMedia-10",
+            "heroButtons": "Connect-Search--heroButtons-6",
+            "heroContent": "Connect-Search--heroContent-5",
+            "heroUnit": "Connect-Search--heroUnit-4",
+            "hidden": "Connect-Search--hidden-1",
+            "icon": "Connect-Search--icon-3",
+            "layout": "Connect-Search--layout-7",
+            "typography": "Connect-Search--typography-12",
+          }
+        }
+        clearAll={[Function]}
+        getArtist={[Function]}
+      >
+        <div
+          className="Connect-Search--heroUnit-4"
+        >
+          <div
+            className="Connect-Search--heroContent-5"
+          >
+            <WithStyles(Typography)
+              align="center"
+              color="textPrimary"
+              component="h1"
+              gutterBottom={true}
+              variant="h2"
+            >
+              <Typography
+                align="center"
+                classes={
+                  Object {
+                    "alignCenter": "MuiTypography-alignCenter-36",
+                    "alignJustify": "MuiTypography-alignJustify-38",
+                    "alignLeft": "MuiTypography-alignLeft-35",
+                    "alignRight": "MuiTypography-alignRight-37",
+                    "body1": "MuiTypography-body1-22",
+                    "body2": "MuiTypography-body2-21",
+                    "button": "MuiTypography-button-24",
+                    "caption": "MuiTypography-caption-23",
+                    "colorError": "MuiTypography-colorError-47",
+                    "colorInherit": "MuiTypography-colorInherit-42",
+                    "colorPrimary": "MuiTypography-colorPrimary-43",
+                    "colorSecondary": "MuiTypography-colorSecondary-44",
+                    "colorTextPrimary": "MuiTypography-colorTextPrimary-45",
+                    "colorTextSecondary": "MuiTypography-colorTextSecondary-46",
+                    "display1": "MuiTypography-display1-17",
+                    "display2": "MuiTypography-display2-16",
+                    "display3": "MuiTypography-display3-15",
+                    "display4": "MuiTypography-display4-14",
+                    "gutterBottom": "MuiTypography-gutterBottom-40",
+                    "h1": "MuiTypography-h1-25",
+                    "h2": "MuiTypography-h2-26",
+                    "h3": "MuiTypography-h3-27",
+                    "h4": "MuiTypography-h4-28",
+                    "h5": "MuiTypography-h5-29",
+                    "h6": "MuiTypography-h6-30",
+                    "headline": "MuiTypography-headline-18",
+                    "noWrap": "MuiTypography-noWrap-39",
+                    "overline": "MuiTypography-overline-33",
+                    "paragraph": "MuiTypography-paragraph-41",
+                    "root": "MuiTypography-root-13",
+                    "srOnly": "MuiTypography-srOnly-34",
+                    "subheading": "MuiTypography-subheading-20",
+                    "subtitle1": "MuiTypography-subtitle1-31",
+                    "subtitle2": "MuiTypography-subtitle2-32",
+                    "title": "MuiTypography-title-19",
+                  }
+                }
+                color="textPrimary"
+                component="h1"
+                gutterBottom={true}
+                headlineMapping={
+                  Object {
+                    "body1": "p",
+                    "body2": "p",
+                    "display1": "h1",
+                    "display2": "h1",
+                    "display3": "h1",
+                    "display4": "h1",
+                    "h1": "h1",
+                    "h2": "h2",
+                    "h3": "h3",
+                    "h4": "h4",
+                    "h5": "h5",
+                    "h6": "h6",
+                    "headline": "h1",
+                    "subheading": "h3",
+                    "subtitle1": "h6",
+                    "subtitle2": "h6",
+                    "title": "h2",
+                  }
+                }
+                noWrap={false}
+                paragraph={false}
+                theme={
+                  Object {
+                    "breakpoints": Object {
+                      "between": [Function],
+                      "down": [Function],
+                      "keys": Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ],
+                      "only": [Function],
+                      "up": [Function],
+                      "values": Object {
+                        "lg": 1280,
+                        "md": 960,
+                        "sm": 600,
+                        "xl": 1920,
+                        "xs": 0,
+                      },
+                      "width": [Function],
+                    },
+                    "direction": "ltr",
+                    "mixins": Object {
+                      "gutters": [Function],
+                      "toolbar": Object {
+                        "@media (min-width:0px) and (orientation: landscape)": Object {
+                          "minHeight": 48,
+                        },
+                        "@media (min-width:600px)": Object {
+                          "minHeight": 64,
+                        },
+                        "minHeight": 56,
+                      },
+                    },
+                    "overrides": Object {},
+                    "palette": Object {
+                      "action": Object {
+                        "active": "rgba(0, 0, 0, 0.54)",
+                        "disabled": "rgba(0, 0, 0, 0.26)",
+                        "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                        "hover": "rgba(0, 0, 0, 0.08)",
+                        "hoverOpacity": 0.08,
+                        "selected": "rgba(0, 0, 0, 0.14)",
+                      },
+                      "augmentColor": [Function],
+                      "background": Object {
+                        "default": "#fafafa",
+                        "paper": "#fff",
+                      },
+                      "common": Object {
+                        "black": "#000",
+                        "white": "#fff",
+                      },
+                      "contrastThreshold": 3,
+                      "divider": "rgba(0, 0, 0, 0.12)",
+                      "error": Object {
+                        "contrastText": "#fff",
+                        "dark": "#d32f2f",
+                        "light": "#e57373",
+                        "main": "#f44336",
+                      },
+                      "getContrastText": [Function],
+                      "grey": Object {
+                        "100": "#f5f5f5",
+                        "200": "#eeeeee",
+                        "300": "#e0e0e0",
+                        "400": "#bdbdbd",
+                        "50": "#fafafa",
+                        "500": "#9e9e9e",
+                        "600": "#757575",
+                        "700": "#616161",
+                        "800": "#424242",
+                        "900": "#212121",
+                        "A100": "#d5d5d5",
+                        "A200": "#aaaaaa",
+                        "A400": "#303030",
+                        "A700": "#616161",
+                      },
+                      "primary": Object {
+                        "contrastText": "#fff",
+                        "dark": "#303f9f",
+                        "light": "#7986cb",
+                        "main": "#3f51b5",
+                      },
+                      "secondary": Object {
+                        "contrastText": "#fff",
+                        "dark": "#c51162",
+                        "light": "#ff4081",
+                        "main": "#f50057",
+                      },
+                      "text": Object {
+                        "disabled": "rgba(0, 0, 0, 0.38)",
+                        "hint": "rgba(0, 0, 0, 0.38)",
+                        "primary": "rgba(0, 0, 0, 0.87)",
+                        "secondary": "rgba(0, 0, 0, 0.54)",
+                      },
+                      "tonalOffset": 0.2,
+                      "type": "light",
+                    },
+                    "props": Object {},
+                    "shadows": Array [
+                      "none",
+                      "0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12)",
+                      "0px 1px 5px 0px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 3px 1px -2px rgba(0, 0, 0, 0.12)",
+                      "0px 1px 8px 0px rgba(0, 0, 0, 0.2),0px 3px 4px 0px rgba(0, 0, 0, 0.14),0px 3px 3px -2px rgba(0, 0, 0, 0.12)",
+                      "0px 2px 4px -1px rgba(0, 0, 0, 0.2),0px 4px 5px 0px rgba(0, 0, 0, 0.14),0px 1px 10px 0px rgba(0, 0, 0, 0.12)",
+                      "0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 5px 8px 0px rgba(0, 0, 0, 0.14),0px 1px 14px 0px rgba(0, 0, 0, 0.12)",
+                      "0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12)",
+                      "0px 4px 5px -2px rgba(0, 0, 0, 0.2),0px 7px 10px 1px rgba(0, 0, 0, 0.14),0px 2px 16px 1px rgba(0, 0, 0, 0.12)",
+                      "0px 5px 5px -3px rgba(0, 0, 0, 0.2),0px 8px 10px 1px rgba(0, 0, 0, 0.14),0px 3px 14px 2px rgba(0, 0, 0, 0.12)",
+                      "0px 5px 6px -3px rgba(0, 0, 0, 0.2),0px 9px 12px 1px rgba(0, 0, 0, 0.14),0px 3px 16px 2px rgba(0, 0, 0, 0.12)",
+                      "0px 6px 6px -3px rgba(0, 0, 0, 0.2),0px 10px 14px 1px rgba(0, 0, 0, 0.14),0px 4px 18px 3px rgba(0, 0, 0, 0.12)",
+                      "0px 6px 7px -4px rgba(0, 0, 0, 0.2),0px 11px 15px 1px rgba(0, 0, 0, 0.14),0px 4px 20px 3px rgba(0, 0, 0, 0.12)",
+                      "0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 12px 17px 2px rgba(0, 0, 0, 0.14),0px 5px 22px 4px rgba(0, 0, 0, 0.12)",
+                      "0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 13px 19px 2px rgba(0, 0, 0, 0.14),0px 5px 24px 4px rgba(0, 0, 0, 0.12)",
+                      "0px 7px 9px -4px rgba(0, 0, 0, 0.2),0px 14px 21px 2px rgba(0, 0, 0, 0.14),0px 5px 26px 4px rgba(0, 0, 0, 0.12)",
+                      "0px 8px 9px -5px rgba(0, 0, 0, 0.2),0px 15px 22px 2px rgba(0, 0, 0, 0.14),0px 6px 28px 5px rgba(0, 0, 0, 0.12)",
+                      "0px 8px 10px -5px rgba(0, 0, 0, 0.2),0px 16px 24px 2px rgba(0, 0, 0, 0.14),0px 6px 30px 5px rgba(0, 0, 0, 0.12)",
+                      "0px 8px 11px -5px rgba(0, 0, 0, 0.2),0px 17px 26px 2px rgba(0, 0, 0, 0.14),0px 6px 32px 5px rgba(0, 0, 0, 0.12)",
+                      "0px 9px 11px -5px rgba(0, 0, 0, 0.2),0px 18px 28px 2px rgba(0, 0, 0, 0.14),0px 7px 34px 6px rgba(0, 0, 0, 0.12)",
+                      "0px 9px 12px -6px rgba(0, 0, 0, 0.2),0px 19px 29px 2px rgba(0, 0, 0, 0.14),0px 7px 36px 6px rgba(0, 0, 0, 0.12)",
+                      "0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 20px 31px 3px rgba(0, 0, 0, 0.14),0px 8px 38px 7px rgba(0, 0, 0, 0.12)",
+                      "0px 10px 13px -6px rgba(0, 0, 0, 0.2),0px 21px 33px 3px rgba(0, 0, 0, 0.14),0px 8px 40px 7px rgba(0, 0, 0, 0.12)",
+                      "0px 10px 14px -6px rgba(0, 0, 0, 0.2),0px 22px 35px 3px rgba(0, 0, 0, 0.14),0px 8px 42px 7px rgba(0, 0, 0, 0.12)",
+                      "0px 11px 14px -7px rgba(0, 0, 0, 0.2),0px 23px 36px 3px rgba(0, 0, 0, 0.14),0px 9px 44px 8px rgba(0, 0, 0, 0.12)",
+                      "0px 11px 15px -7px rgba(0, 0, 0, 0.2),0px 24px 38px 3px rgba(0, 0, 0, 0.14),0px 9px 46px 8px rgba(0, 0, 0, 0.12)",
+                    ],
+                    "shape": Object {
+                      "borderRadius": 4,
+                    },
+                    "spacing": Object {
+                      "unit": 8,
+                    },
+                    "transitions": Object {
+                      "create": [Function],
+                      "duration": Object {
+                        "complex": 375,
+                        "enteringScreen": 225,
+                        "leavingScreen": 195,
+                        "short": 250,
+                        "shorter": 200,
+                        "shortest": 150,
+                        "standard": 300,
+                      },
+                      "easing": Object {
+                        "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                        "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                        "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                        "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                      },
+                      "getAutoHeightDuration": [Function],
+                    },
+                    "typography": Object {
+                      "body1": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 400,
+                        "lineHeight": "1.46429em",
+                      },
+                      "body1Next": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.00938em",
+                        "lineHeight": 1.5,
+                      },
+                      "body2": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 500,
+                        "lineHeight": "1.71429em",
+                      },
+                      "body2Next": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.01071em",
+                        "lineHeight": 1.5,
+                      },
+                      "button": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 500,
+                        "textTransform": "uppercase",
+                      },
+                      "buttonNext": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 500,
+                        "letterSpacing": "0.02857em",
+                        "lineHeight": 1.5,
+                        "textTransform": "uppercase",
+                      },
+                      "caption": Object {
+                        "color": "rgba(0, 0, 0, 0.54)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.75rem",
+                        "fontWeight": 400,
+                        "lineHeight": "1.375em",
+                      },
+                      "captionNext": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.75rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.03333em",
+                        "lineHeight": 1.66,
+                      },
+                      "display1": Object {
+                        "color": "rgba(0, 0, 0, 0.54)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "2.125rem",
+                        "fontWeight": 400,
+                        "lineHeight": "1.20588em",
+                      },
+                      "display2": Object {
+                        "color": "rgba(0, 0, 0, 0.54)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "2.8125rem",
+                        "fontWeight": 400,
+                        "lineHeight": "1.13333em",
+                        "marginLeft": "-.02em",
+                      },
+                      "display3": Object {
+                        "color": "rgba(0, 0, 0, 0.54)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "3.5rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "-.02em",
+                        "lineHeight": "1.30357em",
+                        "marginLeft": "-.02em",
+                      },
+                      "display4": Object {
+                        "color": "rgba(0, 0, 0, 0.54)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "7rem",
+                        "fontWeight": 300,
+                        "letterSpacing": "-.04em",
+                        "lineHeight": "1.14286em",
+                        "marginLeft": "-.04em",
+                      },
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": 14,
+                      "fontWeightLight": 300,
+                      "fontWeightMedium": 500,
+                      "fontWeightRegular": 400,
+                      "h1": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "6rem",
+                        "fontWeight": 300,
+                        "letterSpacing": "-0.01562em",
+                        "lineHeight": 1,
+                      },
+                      "h2": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "3.75rem",
+                        "fontWeight": 300,
+                        "letterSpacing": "-0.00833em",
+                        "lineHeight": 1,
+                      },
+                      "h3": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "3rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0em",
+                        "lineHeight": 1.04,
+                      },
+                      "h4": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "2.125rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.00735em",
+                        "lineHeight": 1.17,
+                      },
+                      "h5": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1.5rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0em",
+                        "lineHeight": 1.33,
+                      },
+                      "h6": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1.25rem",
+                        "fontWeight": 500,
+                        "letterSpacing": "0.0075em",
+                        "lineHeight": 1.6,
+                      },
+                      "headline": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1.5rem",
+                        "fontWeight": 400,
+                        "lineHeight": "1.35417em",
+                      },
+                      "overline": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.75rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.08333em",
+                        "lineHeight": 2.66,
+                        "textTransform": "uppercase",
+                      },
+                      "pxToRem": [Function],
+                      "round": [Function],
+                      "subheading": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1rem",
+                        "fontWeight": 400,
+                        "lineHeight": "1.5em",
+                      },
+                      "subtitle1": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.00938em",
+                        "lineHeight": 1.75,
+                      },
+                      "subtitle2": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 500,
+                        "letterSpacing": "0.00714em",
+                        "lineHeight": 1.57,
+                      },
+                      "title": Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1.3125rem",
+                        "fontWeight": 500,
+                        "lineHeight": "1.16667em",
+                      },
+                      "useNextVariants": false,
+                    },
+                    "zIndex": Object {
+                      "appBar": 1100,
+                      "drawer": 1200,
+                      "mobileStepper": 1000,
+                      "modal": 1300,
+                      "snackbar": 1400,
+                      "tooltip": 1500,
+                    },
+                  }
+                }
+                variant="h2"
+              >
+                <h1
+                  className="MuiTypography-root-13 MuiTypography-h2-26 MuiTypography-colorTextPrimary-45 MuiTypography-gutterBottom-40 MuiTypography-alignCenter-36"
+                >
+                  Search For Artists
+                </h1>
+              </Typography>
+            </WithStyles(Typography)>
+            <Autocomplete
+              handleChange={[Function]}
+              list={
+                Array [
+                  Object {
+                    "label": "Ed Sheeran",
+                    "value": "Ed Sheeran",
+                  },
+                  Object {
+                    "label": "Imagine Dragons",
+                    "value": "imagine dragons",
+                  },
+                  Object {
+                    "label": "The Weeknd",
+                    "value": "The Weeknd",
+                  },
+                  Object {
+                    "label": "Kendrick Lamar",
+                    "value": "Kendrick Lamar",
+                  },
+                  Object {
+                    "label": "Twenty One Pilots",
+                    "value": "Twenty One Pilots",
+                  },
+                ]
+              }
+            >
+              <StateManager
+                autoFocus={true}
+                closeMenuOnSelect={true}
+                defaultInputValue=""
+                defaultMenuIsOpen={false}
+                defaultValue={null}
+                hideSelectedOptions={true}
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "label": "Ed Sheeran",
+                      "value": "Ed Sheeran",
+                    },
+                    Object {
+                      "label": "Imagine Dragons",
+                      "value": "imagine dragons",
+                    },
+                    Object {
+                      "label": "The Weeknd",
+                      "value": "The Weeknd",
+                    },
+                    Object {
+                      "label": "Kendrick Lamar",
+                      "value": "Kendrick Lamar",
+                    },
+                    Object {
+                      "label": "Twenty One Pilots",
+                      "value": "Twenty One Pilots",
+                    },
+                  ]
+                }
+              >
+                <Select
+                  autoFocus={true}
+                  backspaceRemovesValue={true}
+                  blurInputOnSelect={true}
+                  captureMenuScroll={false}
+                  closeMenuOnScroll={false}
+                  closeMenuOnSelect={true}
+                  components={Object {}}
+                  controlShouldRenderValue={true}
+                  defaultInputValue=""
+                  defaultMenuIsOpen={false}
+                  defaultValue={null}
+                  escapeClearsValue={false}
+                  filterOption={[Function]}
+                  formatGroupLabel={[Function]}
+                  getOptionLabel={[Function]}
+                  getOptionValue={[Function]}
+                  hideSelectedOptions={true}
+                  inputValue=""
+                  isDisabled={false}
+                  isLoading={false}
+                  isMulti={false}
+                  isOptionDisabled={[Function]}
+                  isRtl={false}
+                  isSearchable={true}
+                  loadingMessage={[Function]}
+                  maxMenuHeight={300}
+                  menuIsOpen={false}
+                  menuPlacement="bottom"
+                  menuPosition="absolute"
+                  menuShouldBlockScroll={false}
+                  menuShouldScrollIntoView={true}
+                  minMenuHeight={140}
+                  noOptionsMessage={[Function]}
+                  onChange={[Function]}
+                  onInputChange={[Function]}
+                  onMenuClose={[Function]}
+                  onMenuOpen={[Function]}
+                  openMenuOnClick={true}
+                  openMenuOnFocus={false}
+                  options={
+                    Array [
+                      Object {
+                        "label": "Ed Sheeran",
+                        "value": "Ed Sheeran",
+                      },
+                      Object {
+                        "label": "Imagine Dragons",
+                        "value": "imagine dragons",
+                      },
+                      Object {
+                        "label": "The Weeknd",
+                        "value": "The Weeknd",
+                      },
+                      Object {
+                        "label": "Kendrick Lamar",
+                        "value": "Kendrick Lamar",
+                      },
+                      Object {
+                        "label": "Twenty One Pilots",
+                        "value": "Twenty One Pilots",
+                      },
+                    ]
+                  }
+                  pageSize={5}
+                  placeholder="Select..."
+                  screenReaderStatus={[Function]}
+                  styles={Object {}}
+                  tabIndex="0"
+                  tabSelectsValue={true}
+                  value={null}
+                >
+                  <SelectContainer
+                    clearValue={[Function]}
+                    cx={[Function]}
+                    getStyles={[Function]}
+                    getValue={[Function]}
+                    hasValue={false}
+                    innerProps={
+                      Object {
+                        "id": undefined,
+                        "onKeyDown": [Function],
+                      }
+                    }
+                    isDisabled={false}
+                    isFocused={false}
+                    isMulti={false}
+                    isRtl={false}
+                    options={
+                      Array [
+                        Object {
+                          "label": "Ed Sheeran",
+                          "value": "Ed Sheeran",
+                        },
+                        Object {
+                          "label": "Imagine Dragons",
+                          "value": "imagine dragons",
+                        },
+                        Object {
+                          "label": "The Weeknd",
+                          "value": "The Weeknd",
+                        },
+                        Object {
+                          "label": "Kendrick Lamar",
+                          "value": "Kendrick Lamar",
+                        },
+                        Object {
+                          "label": "Twenty One Pilots",
+                          "value": "Twenty One Pilots",
+                        },
+                      ]
+                    }
+                    selectOption={[Function]}
+                    selectProps={
+                      Object {
+                        "autoFocus": true,
+                        "backspaceRemovesValue": true,
+                        "blurInputOnSelect": true,
+                        "captureMenuScroll": false,
+                        "classNamePrefix": undefined,
+                        "closeMenuOnScroll": false,
+                        "closeMenuOnSelect": true,
+                        "components": Object {},
+                        "controlShouldRenderValue": true,
+                        "defaultInputValue": "",
+                        "defaultMenuIsOpen": false,
+                        "defaultValue": null,
+                        "escapeClearsValue": false,
+                        "filterOption": [Function],
+                        "formatGroupLabel": [Function],
+                        "getOptionLabel": [Function],
+                        "getOptionValue": [Function],
+                        "hideSelectedOptions": true,
+                        "inputValue": "",
+                        "isDisabled": false,
+                        "isLoading": false,
+                        "isMulti": false,
+                        "isOptionDisabled": [Function],
+                        "isRtl": false,
+                        "isSearchable": true,
+                        "label": undefined,
+                        "loadingMessage": [Function],
+                        "maxMenuHeight": 300,
+                        "menuIsOpen": false,
+                        "menuPlacement": "bottom",
+                        "menuPosition": "absolute",
+                        "menuShouldBlockScroll": false,
+                        "menuShouldScrollIntoView": true,
+                        "minMenuHeight": 140,
+                        "noOptionsMessage": [Function],
+                        "onChange": [Function],
+                        "onInputChange": [Function],
+                        "onMenuClose": [Function],
+                        "onMenuOpen": [Function],
+                        "openMenuOnClick": true,
+                        "openMenuOnFocus": false,
+                        "options": Array [
+                          Object {
+                            "label": "Ed Sheeran",
+                            "value": "Ed Sheeran",
+                          },
+                          Object {
+                            "label": "Imagine Dragons",
+                            "value": "imagine dragons",
+                          },
+                          Object {
+                            "label": "The Weeknd",
+                            "value": "The Weeknd",
+                          },
+                          Object {
+                            "label": "Kendrick Lamar",
+                            "value": "Kendrick Lamar",
+                          },
+                          Object {
+                            "label": "Twenty One Pilots",
+                            "value": "Twenty One Pilots",
+                          },
+                        ],
+                        "pageSize": 5,
+                        "placeholder": "Select...",
+                        "screenReaderStatus": [Function],
+                        "styles": Object {},
+                        "tabIndex": "0",
+                        "tabSelectsValue": true,
+                        "value": null,
+                      }
+                    }
+                    setValue={[Function]}
+                    theme={
+                      Object {
+                        "borderRadius": 4,
+                        "colors": Object {
+                          "danger": "#DE350B",
+                          "dangerLight": "#FFBDAD",
+                          "neutral0": "hsl(0, 0%, 100%)",
+                          "neutral10": "hsl(0, 0%, 90%)",
+                          "neutral20": "hsl(0, 0%, 80%)",
+                          "neutral30": "hsl(0, 0%, 70%)",
+                          "neutral40": "hsl(0, 0%, 60%)",
+                          "neutral5": "hsl(0, 0%, 95%)",
+                          "neutral50": "hsl(0, 0%, 50%)",
+                          "neutral60": "hsl(0, 0%, 40%)",
+                          "neutral70": "hsl(0, 0%, 30%)",
+                          "neutral80": "hsl(0, 0%, 20%)",
+                          "neutral90": "hsl(0, 0%, 10%)",
+                          "primary": "#2684FF",
+                          "primary25": "#DEEBFF",
+                          "primary50": "#B2D4FF",
+                          "primary75": "#4C9AFF",
+                        },
+                        "spacing": Object {
+                          "baseUnit": 4,
+                          "controlHeight": 38,
+                          "menuGutter": 8,
+                        },
+                      }
+                    }
+                  >
+                    <div
+                      className="css-10nd86i"
+                      onKeyDown={[Function]}
+                    >
+                      <Control
+                        clearValue={[Function]}
+                        cx={[Function]}
+                        getStyles={[Function]}
+                        getValue={[Function]}
+                        hasValue={false}
+                        innerProps={
+                          Object {
+                            "onMouseDown": [Function],
+                            "onTouchEnd": [Function],
+                          }
+                        }
+                        innerRef={[Function]}
+                        isDisabled={false}
+                        isFocused={false}
+                        isMulti={false}
+                        isRtl={false}
+                        options={
+                          Array [
+                            Object {
+                              "label": "Ed Sheeran",
+                              "value": "Ed Sheeran",
+                            },
+                            Object {
+                              "label": "Imagine Dragons",
+                              "value": "imagine dragons",
+                            },
+                            Object {
+                              "label": "The Weeknd",
+                              "value": "The Weeknd",
+                            },
+                            Object {
+                              "label": "Kendrick Lamar",
+                              "value": "Kendrick Lamar",
+                            },
+                            Object {
+                              "label": "Twenty One Pilots",
+                              "value": "Twenty One Pilots",
+                            },
+                          ]
+                        }
+                        selectOption={[Function]}
+                        selectProps={
+                          Object {
+                            "autoFocus": true,
+                            "backspaceRemovesValue": true,
+                            "blurInputOnSelect": true,
+                            "captureMenuScroll": false,
+                            "classNamePrefix": undefined,
+                            "closeMenuOnScroll": false,
+                            "closeMenuOnSelect": true,
+                            "components": Object {},
+                            "controlShouldRenderValue": true,
+                            "defaultInputValue": "",
+                            "defaultMenuIsOpen": false,
+                            "defaultValue": null,
+                            "escapeClearsValue": false,
+                            "filterOption": [Function],
+                            "formatGroupLabel": [Function],
+                            "getOptionLabel": [Function],
+                            "getOptionValue": [Function],
+                            "hideSelectedOptions": true,
+                            "inputValue": "",
+                            "isDisabled": false,
+                            "isLoading": false,
+                            "isMulti": false,
+                            "isOptionDisabled": [Function],
+                            "isRtl": false,
+                            "isSearchable": true,
+                            "label": undefined,
+                            "loadingMessage": [Function],
+                            "maxMenuHeight": 300,
+                            "menuIsOpen": false,
+                            "menuPlacement": "bottom",
+                            "menuPosition": "absolute",
+                            "menuShouldBlockScroll": false,
+                            "menuShouldScrollIntoView": true,
+                            "minMenuHeight": 140,
+                            "noOptionsMessage": [Function],
+                            "onChange": [Function],
+                            "onInputChange": [Function],
+                            "onMenuClose": [Function],
+                            "onMenuOpen": [Function],
+                            "openMenuOnClick": true,
+                            "openMenuOnFocus": false,
+                            "options": Array [
+                              Object {
+                                "label": "Ed Sheeran",
+                                "value": "Ed Sheeran",
+                              },
+                              Object {
+                                "label": "Imagine Dragons",
+                                "value": "imagine dragons",
+                              },
+                              Object {
+                                "label": "The Weeknd",
+                                "value": "The Weeknd",
+                              },
+                              Object {
+                                "label": "Kendrick Lamar",
+                                "value": "Kendrick Lamar",
+                              },
+                              Object {
+                                "label": "Twenty One Pilots",
+                                "value": "Twenty One Pilots",
+                              },
+                            ],
+                            "pageSize": 5,
+                            "placeholder": "Select...",
+                            "screenReaderStatus": [Function],
+                            "styles": Object {},
+                            "tabIndex": "0",
+                            "tabSelectsValue": true,
+                            "value": null,
+                          }
+                        }
+                        setValue={[Function]}
+                        theme={
+                          Object {
+                            "borderRadius": 4,
+                            "colors": Object {
+                              "danger": "#DE350B",
+                              "dangerLight": "#FFBDAD",
+                              "neutral0": "hsl(0, 0%, 100%)",
+                              "neutral10": "hsl(0, 0%, 90%)",
+                              "neutral20": "hsl(0, 0%, 80%)",
+                              "neutral30": "hsl(0, 0%, 70%)",
+                              "neutral40": "hsl(0, 0%, 60%)",
+                              "neutral5": "hsl(0, 0%, 95%)",
+                              "neutral50": "hsl(0, 0%, 50%)",
+                              "neutral60": "hsl(0, 0%, 40%)",
+                              "neutral70": "hsl(0, 0%, 30%)",
+                              "neutral80": "hsl(0, 0%, 20%)",
+                              "neutral90": "hsl(0, 0%, 10%)",
+                              "primary": "#2684FF",
+                              "primary25": "#DEEBFF",
+                              "primary50": "#B2D4FF",
+                              "primary75": "#4C9AFF",
+                            },
+                            "spacing": Object {
+                              "baseUnit": 4,
+                              "controlHeight": 38,
+                              "menuGutter": 8,
+                            },
+                          }
+                        }
+                      >
+                        <div
+                          className="css-vj8t7z"
+                          onMouseDown={[Function]}
+                          onTouchEnd={[Function]}
+                        >
+                          <ValueContainer
+                            clearValue={[Function]}
+                            cx={[Function]}
+                            getStyles={[Function]}
+                            getValue={[Function]}
+                            hasValue={false}
+                            isDisabled={false}
+                            isMulti={false}
+                            isRtl={false}
+                            options={
+                              Array [
+                                Object {
+                                  "label": "Ed Sheeran",
+                                  "value": "Ed Sheeran",
+                                },
+                                Object {
+                                  "label": "Imagine Dragons",
+                                  "value": "imagine dragons",
+                                },
+                                Object {
+                                  "label": "The Weeknd",
+                                  "value": "The Weeknd",
+                                },
+                                Object {
+                                  "label": "Kendrick Lamar",
+                                  "value": "Kendrick Lamar",
+                                },
+                                Object {
+                                  "label": "Twenty One Pilots",
+                                  "value": "Twenty One Pilots",
+                                },
+                              ]
+                            }
+                            selectOption={[Function]}
+                            selectProps={
+                              Object {
+                                "autoFocus": true,
+                                "backspaceRemovesValue": true,
+                                "blurInputOnSelect": true,
+                                "captureMenuScroll": false,
+                                "classNamePrefix": undefined,
+                                "closeMenuOnScroll": false,
+                                "closeMenuOnSelect": true,
+                                "components": Object {},
+                                "controlShouldRenderValue": true,
+                                "defaultInputValue": "",
+                                "defaultMenuIsOpen": false,
+                                "defaultValue": null,
+                                "escapeClearsValue": false,
+                                "filterOption": [Function],
+                                "formatGroupLabel": [Function],
+                                "getOptionLabel": [Function],
+                                "getOptionValue": [Function],
+                                "hideSelectedOptions": true,
+                                "inputValue": "",
+                                "isDisabled": false,
+                                "isLoading": false,
+                                "isMulti": false,
+                                "isOptionDisabled": [Function],
+                                "isRtl": false,
+                                "isSearchable": true,
+                                "label": undefined,
+                                "loadingMessage": [Function],
+                                "maxMenuHeight": 300,
+                                "menuIsOpen": false,
+                                "menuPlacement": "bottom",
+                                "menuPosition": "absolute",
+                                "menuShouldBlockScroll": false,
+                                "menuShouldScrollIntoView": true,
+                                "minMenuHeight": 140,
+                                "noOptionsMessage": [Function],
+                                "onChange": [Function],
+                                "onInputChange": [Function],
+                                "onMenuClose": [Function],
+                                "onMenuOpen": [Function],
+                                "openMenuOnClick": true,
+                                "openMenuOnFocus": false,
+                                "options": Array [
+                                  Object {
+                                    "label": "Ed Sheeran",
+                                    "value": "Ed Sheeran",
+                                  },
+                                  Object {
+                                    "label": "Imagine Dragons",
+                                    "value": "imagine dragons",
+                                  },
+                                  Object {
+                                    "label": "The Weeknd",
+                                    "value": "The Weeknd",
+                                  },
+                                  Object {
+                                    "label": "Kendrick Lamar",
+                                    "value": "Kendrick Lamar",
+                                  },
+                                  Object {
+                                    "label": "Twenty One Pilots",
+                                    "value": "Twenty One Pilots",
+                                  },
+                                ],
+                                "pageSize": 5,
+                                "placeholder": "Select...",
+                                "screenReaderStatus": [Function],
+                                "styles": Object {},
+                                "tabIndex": "0",
+                                "tabSelectsValue": true,
+                                "value": null,
+                              }
+                            }
+                            setValue={[Function]}
+                            theme={
+                              Object {
+                                "borderRadius": 4,
+                                "colors": Object {
+                                  "danger": "#DE350B",
+                                  "dangerLight": "#FFBDAD",
+                                  "neutral0": "hsl(0, 0%, 100%)",
+                                  "neutral10": "hsl(0, 0%, 90%)",
+                                  "neutral20": "hsl(0, 0%, 80%)",
+                                  "neutral30": "hsl(0, 0%, 70%)",
+                                  "neutral40": "hsl(0, 0%, 60%)",
+                                  "neutral5": "hsl(0, 0%, 95%)",
+                                  "neutral50": "hsl(0, 0%, 50%)",
+                                  "neutral60": "hsl(0, 0%, 40%)",
+                                  "neutral70": "hsl(0, 0%, 30%)",
+                                  "neutral80": "hsl(0, 0%, 20%)",
+                                  "neutral90": "hsl(0, 0%, 10%)",
+                                  "primary": "#2684FF",
+                                  "primary25": "#DEEBFF",
+                                  "primary50": "#B2D4FF",
+                                  "primary75": "#4C9AFF",
+                                },
+                                "spacing": Object {
+                                  "baseUnit": 4,
+                                  "controlHeight": 38,
+                                  "menuGutter": 8,
+                                },
+                              }
+                            }
+                          >
+                            <div
+                              className="css-1hwfws3"
+                            >
+                              <Placeholder
+                                clearValue={[Function]}
+                                cx={[Function]}
+                                getStyles={[Function]}
+                                getValue={[Function]}
+                                hasValue={false}
+                                isDisabled={false}
+                                isFocused={false}
+                                isMulti={false}
+                                isRtl={false}
+                                key="placeholder"
+                                options={
+                                  Array [
+                                    Object {
+                                      "label": "Ed Sheeran",
+                                      "value": "Ed Sheeran",
+                                    },
+                                    Object {
+                                      "label": "Imagine Dragons",
+                                      "value": "imagine dragons",
+                                    },
+                                    Object {
+                                      "label": "The Weeknd",
+                                      "value": "The Weeknd",
+                                    },
+                                    Object {
+                                      "label": "Kendrick Lamar",
+                                      "value": "Kendrick Lamar",
+                                    },
+                                    Object {
+                                      "label": "Twenty One Pilots",
+                                      "value": "Twenty One Pilots",
+                                    },
+                                  ]
+                                }
+                                selectOption={[Function]}
+                                selectProps={
+                                  Object {
+                                    "autoFocus": true,
+                                    "backspaceRemovesValue": true,
+                                    "blurInputOnSelect": true,
+                                    "captureMenuScroll": false,
+                                    "classNamePrefix": undefined,
+                                    "closeMenuOnScroll": false,
+                                    "closeMenuOnSelect": true,
+                                    "components": Object {},
+                                    "controlShouldRenderValue": true,
+                                    "defaultInputValue": "",
+                                    "defaultMenuIsOpen": false,
+                                    "defaultValue": null,
+                                    "escapeClearsValue": false,
+                                    "filterOption": [Function],
+                                    "formatGroupLabel": [Function],
+                                    "getOptionLabel": [Function],
+                                    "getOptionValue": [Function],
+                                    "hideSelectedOptions": true,
+                                    "inputValue": "",
+                                    "isDisabled": false,
+                                    "isLoading": false,
+                                    "isMulti": false,
+                                    "isOptionDisabled": [Function],
+                                    "isRtl": false,
+                                    "isSearchable": true,
+                                    "label": undefined,
+                                    "loadingMessage": [Function],
+                                    "maxMenuHeight": 300,
+                                    "menuIsOpen": false,
+                                    "menuPlacement": "bottom",
+                                    "menuPosition": "absolute",
+                                    "menuShouldBlockScroll": false,
+                                    "menuShouldScrollIntoView": true,
+                                    "minMenuHeight": 140,
+                                    "noOptionsMessage": [Function],
+                                    "onChange": [Function],
+                                    "onInputChange": [Function],
+                                    "onMenuClose": [Function],
+                                    "onMenuOpen": [Function],
+                                    "openMenuOnClick": true,
+                                    "openMenuOnFocus": false,
+                                    "options": Array [
+                                      Object {
+                                        "label": "Ed Sheeran",
+                                        "value": "Ed Sheeran",
+                                      },
+                                      Object {
+                                        "label": "Imagine Dragons",
+                                        "value": "imagine dragons",
+                                      },
+                                      Object {
+                                        "label": "The Weeknd",
+                                        "value": "The Weeknd",
+                                      },
+                                      Object {
+                                        "label": "Kendrick Lamar",
+                                        "value": "Kendrick Lamar",
+                                      },
+                                      Object {
+                                        "label": "Twenty One Pilots",
+                                        "value": "Twenty One Pilots",
+                                      },
+                                    ],
+                                    "pageSize": 5,
+                                    "placeholder": "Select...",
+                                    "screenReaderStatus": [Function],
+                                    "styles": Object {},
+                                    "tabIndex": "0",
+                                    "tabSelectsValue": true,
+                                    "value": null,
+                                  }
+                                }
+                                setValue={[Function]}
+                                theme={
+                                  Object {
+                                    "borderRadius": 4,
+                                    "colors": Object {
+                                      "danger": "#DE350B",
+                                      "dangerLight": "#FFBDAD",
+                                      "neutral0": "hsl(0, 0%, 100%)",
+                                      "neutral10": "hsl(0, 0%, 90%)",
+                                      "neutral20": "hsl(0, 0%, 80%)",
+                                      "neutral30": "hsl(0, 0%, 70%)",
+                                      "neutral40": "hsl(0, 0%, 60%)",
+                                      "neutral5": "hsl(0, 0%, 95%)",
+                                      "neutral50": "hsl(0, 0%, 50%)",
+                                      "neutral60": "hsl(0, 0%, 40%)",
+                                      "neutral70": "hsl(0, 0%, 30%)",
+                                      "neutral80": "hsl(0, 0%, 20%)",
+                                      "neutral90": "hsl(0, 0%, 10%)",
+                                      "primary": "#2684FF",
+                                      "primary25": "#DEEBFF",
+                                      "primary50": "#B2D4FF",
+                                      "primary75": "#4C9AFF",
+                                    },
+                                    "spacing": Object {
+                                      "baseUnit": 4,
+                                      "controlHeight": 38,
+                                      "menuGutter": 8,
+                                    },
+                                  }
+                                }
+                              >
+                                <div
+                                  className="css-1492t68"
+                                >
+                                  Select...
+                                </div>
+                              </Placeholder>
+                              <Input
+                                aria-autocomplete="list"
+                                autoCapitalize="none"
+                                autoComplete="off"
+                                autoCorrect="off"
+                                cx={[Function]}
+                                getStyles={[Function]}
+                                id="react-select-2-input"
+                                innerRef={[Function]}
+                                isDisabled={false}
+                                isHidden={false}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                spellCheck="false"
+                                tabIndex="0"
+                                theme={
+                                  Object {
+                                    "borderRadius": 4,
+                                    "colors": Object {
+                                      "danger": "#DE350B",
+                                      "dangerLight": "#FFBDAD",
+                                      "neutral0": "hsl(0, 0%, 100%)",
+                                      "neutral10": "hsl(0, 0%, 90%)",
+                                      "neutral20": "hsl(0, 0%, 80%)",
+                                      "neutral30": "hsl(0, 0%, 70%)",
+                                      "neutral40": "hsl(0, 0%, 60%)",
+                                      "neutral5": "hsl(0, 0%, 95%)",
+                                      "neutral50": "hsl(0, 0%, 50%)",
+                                      "neutral60": "hsl(0, 0%, 40%)",
+                                      "neutral70": "hsl(0, 0%, 30%)",
+                                      "neutral80": "hsl(0, 0%, 20%)",
+                                      "neutral90": "hsl(0, 0%, 10%)",
+                                      "primary": "#2684FF",
+                                      "primary25": "#DEEBFF",
+                                      "primary50": "#B2D4FF",
+                                      "primary75": "#4C9AFF",
+                                    },
+                                    "spacing": Object {
+                                      "baseUnit": 4,
+                                      "controlHeight": 38,
+                                      "menuGutter": 8,
+                                    },
+                                  }
+                                }
+                                type="text"
+                                value=""
+                              >
+                                <div
+                                  className="css-1g6gooi"
+                                >
+                                  <AutosizeInput
+                                    aria-autocomplete="list"
+                                    autoCapitalize="none"
+                                    autoComplete="off"
+                                    autoCorrect="off"
+                                    className=""
+                                    disabled={false}
+                                    id="react-select-2-input"
+                                    injectStyles={true}
+                                    inputRef={[Function]}
+                                    inputStyle={
+                                      Object {
+                                        "background": 0,
+                                        "border": 0,
+                                        "color": "inherit",
+                                        "fontSize": "inherit",
+                                        "opacity": 1,
+                                        "outline": 0,
+                                        "padding": 0,
+                                      }
+                                    }
+                                    minWidth={1}
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    spellCheck="false"
+                                    tabIndex="0"
+                                    type="text"
+                                    value=""
+                                  >
+                                    <div
+                                      className=""
+                                      style={
+                                        Object {
+                                          "display": "inline-block",
+                                        }
+                                      }
+                                    >
+                                      <input
+                                        aria-autocomplete="list"
+                                        autoCapitalize="none"
+                                        autoComplete="off"
+                                        autoCorrect="off"
+                                        disabled={false}
+                                        id="react-select-2-input"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onFocus={[Function]}
+                                        spellCheck="false"
+                                        style={
+                                          Object {
+                                            "background": 0,
+                                            "border": 0,
+                                            "boxSizing": "content-box",
+                                            "color": "inherit",
+                                            "fontSize": "inherit",
+                                            "opacity": 1,
+                                            "outline": 0,
+                                            "padding": 0,
+                                            "width": "2px",
+                                          }
+                                        }
+                                        tabIndex="0"
+                                        type="text"
+                                        value=""
+                                      />
+                                      <div
+                                        style={
+                                          Object {
+                                            "height": 0,
+                                            "left": 0,
+                                            "overflow": "scroll",
+                                            "position": "absolute",
+                                            "top": 0,
+                                            "visibility": "hidden",
+                                            "whiteSpace": "pre",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </AutosizeInput>
+                                </div>
+                              </Input>
+                            </div>
+                          </ValueContainer>
+                          <IndicatorsContainer
+                            clearValue={[Function]}
+                            cx={[Function]}
+                            getStyles={[Function]}
+                            getValue={[Function]}
+                            hasValue={false}
+                            isDisabled={false}
+                            isMulti={false}
+                            isRtl={false}
+                            options={
+                              Array [
+                                Object {
+                                  "label": "Ed Sheeran",
+                                  "value": "Ed Sheeran",
+                                },
+                                Object {
+                                  "label": "Imagine Dragons",
+                                  "value": "imagine dragons",
+                                },
+                                Object {
+                                  "label": "The Weeknd",
+                                  "value": "The Weeknd",
+                                },
+                                Object {
+                                  "label": "Kendrick Lamar",
+                                  "value": "Kendrick Lamar",
+                                },
+                                Object {
+                                  "label": "Twenty One Pilots",
+                                  "value": "Twenty One Pilots",
+                                },
+                              ]
+                            }
+                            selectOption={[Function]}
+                            selectProps={
+                              Object {
+                                "autoFocus": true,
+                                "backspaceRemovesValue": true,
+                                "blurInputOnSelect": true,
+                                "captureMenuScroll": false,
+                                "classNamePrefix": undefined,
+                                "closeMenuOnScroll": false,
+                                "closeMenuOnSelect": true,
+                                "components": Object {},
+                                "controlShouldRenderValue": true,
+                                "defaultInputValue": "",
+                                "defaultMenuIsOpen": false,
+                                "defaultValue": null,
+                                "escapeClearsValue": false,
+                                "filterOption": [Function],
+                                "formatGroupLabel": [Function],
+                                "getOptionLabel": [Function],
+                                "getOptionValue": [Function],
+                                "hideSelectedOptions": true,
+                                "inputValue": "",
+                                "isDisabled": false,
+                                "isLoading": false,
+                                "isMulti": false,
+                                "isOptionDisabled": [Function],
+                                "isRtl": false,
+                                "isSearchable": true,
+                                "label": undefined,
+                                "loadingMessage": [Function],
+                                "maxMenuHeight": 300,
+                                "menuIsOpen": false,
+                                "menuPlacement": "bottom",
+                                "menuPosition": "absolute",
+                                "menuShouldBlockScroll": false,
+                                "menuShouldScrollIntoView": true,
+                                "minMenuHeight": 140,
+                                "noOptionsMessage": [Function],
+                                "onChange": [Function],
+                                "onInputChange": [Function],
+                                "onMenuClose": [Function],
+                                "onMenuOpen": [Function],
+                                "openMenuOnClick": true,
+                                "openMenuOnFocus": false,
+                                "options": Array [
+                                  Object {
+                                    "label": "Ed Sheeran",
+                                    "value": "Ed Sheeran",
+                                  },
+                                  Object {
+                                    "label": "Imagine Dragons",
+                                    "value": "imagine dragons",
+                                  },
+                                  Object {
+                                    "label": "The Weeknd",
+                                    "value": "The Weeknd",
+                                  },
+                                  Object {
+                                    "label": "Kendrick Lamar",
+                                    "value": "Kendrick Lamar",
+                                  },
+                                  Object {
+                                    "label": "Twenty One Pilots",
+                                    "value": "Twenty One Pilots",
+                                  },
+                                ],
+                                "pageSize": 5,
+                                "placeholder": "Select...",
+                                "screenReaderStatus": [Function],
+                                "styles": Object {},
+                                "tabIndex": "0",
+                                "tabSelectsValue": true,
+                                "value": null,
+                              }
+                            }
+                            setValue={[Function]}
+                            theme={
+                              Object {
+                                "borderRadius": 4,
+                                "colors": Object {
+                                  "danger": "#DE350B",
+                                  "dangerLight": "#FFBDAD",
+                                  "neutral0": "hsl(0, 0%, 100%)",
+                                  "neutral10": "hsl(0, 0%, 90%)",
+                                  "neutral20": "hsl(0, 0%, 80%)",
+                                  "neutral30": "hsl(0, 0%, 70%)",
+                                  "neutral40": "hsl(0, 0%, 60%)",
+                                  "neutral5": "hsl(0, 0%, 95%)",
+                                  "neutral50": "hsl(0, 0%, 50%)",
+                                  "neutral60": "hsl(0, 0%, 40%)",
+                                  "neutral70": "hsl(0, 0%, 30%)",
+                                  "neutral80": "hsl(0, 0%, 20%)",
+                                  "neutral90": "hsl(0, 0%, 10%)",
+                                  "primary": "#2684FF",
+                                  "primary25": "#DEEBFF",
+                                  "primary50": "#B2D4FF",
+                                  "primary75": "#4C9AFF",
+                                },
+                                "spacing": Object {
+                                  "baseUnit": 4,
+                                  "controlHeight": 38,
+                                  "menuGutter": 8,
+                                },
+                              }
+                            }
+                          >
+                            <div
+                              className="css-1wy0on6"
+                            >
+                              <IndicatorSeparator
+                                clearValue={[Function]}
+                                cx={[Function]}
+                                getStyles={[Function]}
+                                getValue={[Function]}
+                                hasValue={false}
+                                isDisabled={false}
+                                isFocused={false}
+                                isMulti={false}
+                                isRtl={false}
+                                options={
+                                  Array [
+                                    Object {
+                                      "label": "Ed Sheeran",
+                                      "value": "Ed Sheeran",
+                                    },
+                                    Object {
+                                      "label": "Imagine Dragons",
+                                      "value": "imagine dragons",
+                                    },
+                                    Object {
+                                      "label": "The Weeknd",
+                                      "value": "The Weeknd",
+                                    },
+                                    Object {
+                                      "label": "Kendrick Lamar",
+                                      "value": "Kendrick Lamar",
+                                    },
+                                    Object {
+                                      "label": "Twenty One Pilots",
+                                      "value": "Twenty One Pilots",
+                                    },
+                                  ]
+                                }
+                                selectOption={[Function]}
+                                selectProps={
+                                  Object {
+                                    "autoFocus": true,
+                                    "backspaceRemovesValue": true,
+                                    "blurInputOnSelect": true,
+                                    "captureMenuScroll": false,
+                                    "classNamePrefix": undefined,
+                                    "closeMenuOnScroll": false,
+                                    "closeMenuOnSelect": true,
+                                    "components": Object {},
+                                    "controlShouldRenderValue": true,
+                                    "defaultInputValue": "",
+                                    "defaultMenuIsOpen": false,
+                                    "defaultValue": null,
+                                    "escapeClearsValue": false,
+                                    "filterOption": [Function],
+                                    "formatGroupLabel": [Function],
+                                    "getOptionLabel": [Function],
+                                    "getOptionValue": [Function],
+                                    "hideSelectedOptions": true,
+                                    "inputValue": "",
+                                    "isDisabled": false,
+                                    "isLoading": false,
+                                    "isMulti": false,
+                                    "isOptionDisabled": [Function],
+                                    "isRtl": false,
+                                    "isSearchable": true,
+                                    "label": undefined,
+                                    "loadingMessage": [Function],
+                                    "maxMenuHeight": 300,
+                                    "menuIsOpen": false,
+                                    "menuPlacement": "bottom",
+                                    "menuPosition": "absolute",
+                                    "menuShouldBlockScroll": false,
+                                    "menuShouldScrollIntoView": true,
+                                    "minMenuHeight": 140,
+                                    "noOptionsMessage": [Function],
+                                    "onChange": [Function],
+                                    "onInputChange": [Function],
+                                    "onMenuClose": [Function],
+                                    "onMenuOpen": [Function],
+                                    "openMenuOnClick": true,
+                                    "openMenuOnFocus": false,
+                                    "options": Array [
+                                      Object {
+                                        "label": "Ed Sheeran",
+                                        "value": "Ed Sheeran",
+                                      },
+                                      Object {
+                                        "label": "Imagine Dragons",
+                                        "value": "imagine dragons",
+                                      },
+                                      Object {
+                                        "label": "The Weeknd",
+                                        "value": "The Weeknd",
+                                      },
+                                      Object {
+                                        "label": "Kendrick Lamar",
+                                        "value": "Kendrick Lamar",
+                                      },
+                                      Object {
+                                        "label": "Twenty One Pilots",
+                                        "value": "Twenty One Pilots",
+                                      },
+                                    ],
+                                    "pageSize": 5,
+                                    "placeholder": "Select...",
+                                    "screenReaderStatus": [Function],
+                                    "styles": Object {},
+                                    "tabIndex": "0",
+                                    "tabSelectsValue": true,
+                                    "value": null,
+                                  }
+                                }
+                                setValue={[Function]}
+                                theme={
+                                  Object {
+                                    "borderRadius": 4,
+                                    "colors": Object {
+                                      "danger": "#DE350B",
+                                      "dangerLight": "#FFBDAD",
+                                      "neutral0": "hsl(0, 0%, 100%)",
+                                      "neutral10": "hsl(0, 0%, 90%)",
+                                      "neutral20": "hsl(0, 0%, 80%)",
+                                      "neutral30": "hsl(0, 0%, 70%)",
+                                      "neutral40": "hsl(0, 0%, 60%)",
+                                      "neutral5": "hsl(0, 0%, 95%)",
+                                      "neutral50": "hsl(0, 0%, 50%)",
+                                      "neutral60": "hsl(0, 0%, 40%)",
+                                      "neutral70": "hsl(0, 0%, 30%)",
+                                      "neutral80": "hsl(0, 0%, 20%)",
+                                      "neutral90": "hsl(0, 0%, 10%)",
+                                      "primary": "#2684FF",
+                                      "primary25": "#DEEBFF",
+                                      "primary50": "#B2D4FF",
+                                      "primary75": "#4C9AFF",
+                                    },
+                                    "spacing": Object {
+                                      "baseUnit": 4,
+                                      "controlHeight": 38,
+                                      "menuGutter": 8,
+                                    },
+                                  }
+                                }
+                              >
+                                <span
+                                  className="css-d8oujb"
+                                />
+                              </IndicatorSeparator>
+                              <DropdownIndicator
+                                clearValue={[Function]}
+                                cx={[Function]}
+                                getStyles={[Function]}
+                                getValue={[Function]}
+                                hasValue={false}
+                                innerProps={
+                                  Object {
+                                    "aria-hidden": "true",
+                                    "onMouseDown": [Function],
+                                    "onTouchEnd": [Function],
+                                  }
+                                }
+                                isDisabled={false}
+                                isFocused={false}
+                                isMulti={false}
+                                isRtl={false}
+                                options={
+                                  Array [
+                                    Object {
+                                      "label": "Ed Sheeran",
+                                      "value": "Ed Sheeran",
+                                    },
+                                    Object {
+                                      "label": "Imagine Dragons",
+                                      "value": "imagine dragons",
+                                    },
+                                    Object {
+                                      "label": "The Weeknd",
+                                      "value": "The Weeknd",
+                                    },
+                                    Object {
+                                      "label": "Kendrick Lamar",
+                                      "value": "Kendrick Lamar",
+                                    },
+                                    Object {
+                                      "label": "Twenty One Pilots",
+                                      "value": "Twenty One Pilots",
+                                    },
+                                  ]
+                                }
+                                selectOption={[Function]}
+                                selectProps={
+                                  Object {
+                                    "autoFocus": true,
+                                    "backspaceRemovesValue": true,
+                                    "blurInputOnSelect": true,
+                                    "captureMenuScroll": false,
+                                    "classNamePrefix": undefined,
+                                    "closeMenuOnScroll": false,
+                                    "closeMenuOnSelect": true,
+                                    "components": Object {},
+                                    "controlShouldRenderValue": true,
+                                    "defaultInputValue": "",
+                                    "defaultMenuIsOpen": false,
+                                    "defaultValue": null,
+                                    "escapeClearsValue": false,
+                                    "filterOption": [Function],
+                                    "formatGroupLabel": [Function],
+                                    "getOptionLabel": [Function],
+                                    "getOptionValue": [Function],
+                                    "hideSelectedOptions": true,
+                                    "inputValue": "",
+                                    "isDisabled": false,
+                                    "isLoading": false,
+                                    "isMulti": false,
+                                    "isOptionDisabled": [Function],
+                                    "isRtl": false,
+                                    "isSearchable": true,
+                                    "label": undefined,
+                                    "loadingMessage": [Function],
+                                    "maxMenuHeight": 300,
+                                    "menuIsOpen": false,
+                                    "menuPlacement": "bottom",
+                                    "menuPosition": "absolute",
+                                    "menuShouldBlockScroll": false,
+                                    "menuShouldScrollIntoView": true,
+                                    "minMenuHeight": 140,
+                                    "noOptionsMessage": [Function],
+                                    "onChange": [Function],
+                                    "onInputChange": [Function],
+                                    "onMenuClose": [Function],
+                                    "onMenuOpen": [Function],
+                                    "openMenuOnClick": true,
+                                    "openMenuOnFocus": false,
+                                    "options": Array [
+                                      Object {
+                                        "label": "Ed Sheeran",
+                                        "value": "Ed Sheeran",
+                                      },
+                                      Object {
+                                        "label": "Imagine Dragons",
+                                        "value": "imagine dragons",
+                                      },
+                                      Object {
+                                        "label": "The Weeknd",
+                                        "value": "The Weeknd",
+                                      },
+                                      Object {
+                                        "label": "Kendrick Lamar",
+                                        "value": "Kendrick Lamar",
+                                      },
+                                      Object {
+                                        "label": "Twenty One Pilots",
+                                        "value": "Twenty One Pilots",
+                                      },
+                                    ],
+                                    "pageSize": 5,
+                                    "placeholder": "Select...",
+                                    "screenReaderStatus": [Function],
+                                    "styles": Object {},
+                                    "tabIndex": "0",
+                                    "tabSelectsValue": true,
+                                    "value": null,
+                                  }
+                                }
+                                setValue={[Function]}
+                                theme={
+                                  Object {
+                                    "borderRadius": 4,
+                                    "colors": Object {
+                                      "danger": "#DE350B",
+                                      "dangerLight": "#FFBDAD",
+                                      "neutral0": "hsl(0, 0%, 100%)",
+                                      "neutral10": "hsl(0, 0%, 90%)",
+                                      "neutral20": "hsl(0, 0%, 80%)",
+                                      "neutral30": "hsl(0, 0%, 70%)",
+                                      "neutral40": "hsl(0, 0%, 60%)",
+                                      "neutral5": "hsl(0, 0%, 95%)",
+                                      "neutral50": "hsl(0, 0%, 50%)",
+                                      "neutral60": "hsl(0, 0%, 40%)",
+                                      "neutral70": "hsl(0, 0%, 30%)",
+                                      "neutral80": "hsl(0, 0%, 20%)",
+                                      "neutral90": "hsl(0, 0%, 10%)",
+                                      "primary": "#2684FF",
+                                      "primary25": "#DEEBFF",
+                                      "primary50": "#B2D4FF",
+                                      "primary75": "#4C9AFF",
+                                    },
+                                    "spacing": Object {
+                                      "baseUnit": 4,
+                                      "controlHeight": 38,
+                                      "menuGutter": 8,
+                                    },
+                                  }
+                                }
+                              >
+                                <div
+                                  aria-hidden="true"
+                                  className="css-1ep9fjw"
+                                  onMouseDown={[Function]}
+                                  onTouchEnd={[Function]}
+                                >
+                                  <DownChevron>
+                                    <Svg
+                                      size={20}
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className="css-19bqh2r"
+                                        focusable="false"
+                                        height={20}
+                                        viewBox="0 0 20 20"
+                                        width={20}
+                                      >
+                                        <path
+                                          d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                                        />
+                                      </svg>
+                                    </Svg>
+                                  </DownChevron>
+                                </div>
+                              </DropdownIndicator>
+                            </div>
+                          </IndicatorsContainer>
+                        </div>
+                      </Control>
+                    </div>
+                  </SelectContainer>
+                </Select>
+              </StateManager>
+            </Autocomplete>
+            <div
+              className="Connect-Search--heroButtons-6"
+            >
+              <WithStyles(Grid)
+                container={true}
+                justify="center"
+                spacing={16}
+              >
+                <Grid
+                  alignContent="stretch"
+                  alignItems="stretch"
+                  classes={
+                    Object {
+                      "align-content-xs-center": "MuiGrid-align-content-xs-center-60",
+                      "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-62",
+                      "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-61",
+                      "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-64",
+                      "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-63",
+                      "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-59",
+                      "align-items-xs-center": "MuiGrid-align-items-xs-center-56",
+                      "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-58",
+                      "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-57",
+                      "container": "MuiGrid-container-48",
+                      "direction-xs-column": "MuiGrid-direction-xs-column-51",
+                      "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-52",
+                      "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-53",
+                      "grid-lg-1": "MuiGrid-grid-lg-1-119",
+                      "grid-lg-10": "MuiGrid-grid-lg-10-128",
+                      "grid-lg-11": "MuiGrid-grid-lg-11-129",
+                      "grid-lg-12": "MuiGrid-grid-lg-12-130",
+                      "grid-lg-2": "MuiGrid-grid-lg-2-120",
+                      "grid-lg-3": "MuiGrid-grid-lg-3-121",
+                      "grid-lg-4": "MuiGrid-grid-lg-4-122",
+                      "grid-lg-5": "MuiGrid-grid-lg-5-123",
+                      "grid-lg-6": "MuiGrid-grid-lg-6-124",
+                      "grid-lg-7": "MuiGrid-grid-lg-7-125",
+                      "grid-lg-8": "MuiGrid-grid-lg-8-126",
+                      "grid-lg-9": "MuiGrid-grid-lg-9-127",
+                      "grid-lg-auto": "MuiGrid-grid-lg-auto-117",
+                      "grid-lg-true": "MuiGrid-grid-lg-true-118",
+                      "grid-md-1": "MuiGrid-grid-md-1-105",
+                      "grid-md-10": "MuiGrid-grid-md-10-114",
+                      "grid-md-11": "MuiGrid-grid-md-11-115",
+                      "grid-md-12": "MuiGrid-grid-md-12-116",
+                      "grid-md-2": "MuiGrid-grid-md-2-106",
+                      "grid-md-3": "MuiGrid-grid-md-3-107",
+                      "grid-md-4": "MuiGrid-grid-md-4-108",
+                      "grid-md-5": "MuiGrid-grid-md-5-109",
+                      "grid-md-6": "MuiGrid-grid-md-6-110",
+                      "grid-md-7": "MuiGrid-grid-md-7-111",
+                      "grid-md-8": "MuiGrid-grid-md-8-112",
+                      "grid-md-9": "MuiGrid-grid-md-9-113",
+                      "grid-md-auto": "MuiGrid-grid-md-auto-103",
+                      "grid-md-true": "MuiGrid-grid-md-true-104",
+                      "grid-sm-1": "MuiGrid-grid-sm-1-91",
+                      "grid-sm-10": "MuiGrid-grid-sm-10-100",
+                      "grid-sm-11": "MuiGrid-grid-sm-11-101",
+                      "grid-sm-12": "MuiGrid-grid-sm-12-102",
+                      "grid-sm-2": "MuiGrid-grid-sm-2-92",
+                      "grid-sm-3": "MuiGrid-grid-sm-3-93",
+                      "grid-sm-4": "MuiGrid-grid-sm-4-94",
+                      "grid-sm-5": "MuiGrid-grid-sm-5-95",
+                      "grid-sm-6": "MuiGrid-grid-sm-6-96",
+                      "grid-sm-7": "MuiGrid-grid-sm-7-97",
+                      "grid-sm-8": "MuiGrid-grid-sm-8-98",
+                      "grid-sm-9": "MuiGrid-grid-sm-9-99",
+                      "grid-sm-auto": "MuiGrid-grid-sm-auto-89",
+                      "grid-sm-true": "MuiGrid-grid-sm-true-90",
+                      "grid-xl-1": "MuiGrid-grid-xl-1-133",
+                      "grid-xl-10": "MuiGrid-grid-xl-10-142",
+                      "grid-xl-11": "MuiGrid-grid-xl-11-143",
+                      "grid-xl-12": "MuiGrid-grid-xl-12-144",
+                      "grid-xl-2": "MuiGrid-grid-xl-2-134",
+                      "grid-xl-3": "MuiGrid-grid-xl-3-135",
+                      "grid-xl-4": "MuiGrid-grid-xl-4-136",
+                      "grid-xl-5": "MuiGrid-grid-xl-5-137",
+                      "grid-xl-6": "MuiGrid-grid-xl-6-138",
+                      "grid-xl-7": "MuiGrid-grid-xl-7-139",
+                      "grid-xl-8": "MuiGrid-grid-xl-8-140",
+                      "grid-xl-9": "MuiGrid-grid-xl-9-141",
+                      "grid-xl-auto": "MuiGrid-grid-xl-auto-131",
+                      "grid-xl-true": "MuiGrid-grid-xl-true-132",
+                      "grid-xs-1": "MuiGrid-grid-xs-1-77",
+                      "grid-xs-10": "MuiGrid-grid-xs-10-86",
+                      "grid-xs-11": "MuiGrid-grid-xs-11-87",
+                      "grid-xs-12": "MuiGrid-grid-xs-12-88",
+                      "grid-xs-2": "MuiGrid-grid-xs-2-78",
+                      "grid-xs-3": "MuiGrid-grid-xs-3-79",
+                      "grid-xs-4": "MuiGrid-grid-xs-4-80",
+                      "grid-xs-5": "MuiGrid-grid-xs-5-81",
+                      "grid-xs-6": "MuiGrid-grid-xs-6-82",
+                      "grid-xs-7": "MuiGrid-grid-xs-7-83",
+                      "grid-xs-8": "MuiGrid-grid-xs-8-84",
+                      "grid-xs-9": "MuiGrid-grid-xs-9-85",
+                      "grid-xs-auto": "MuiGrid-grid-xs-auto-75",
+                      "grid-xs-true": "MuiGrid-grid-xs-true-76",
+                      "item": "MuiGrid-item-49",
+                      "justify-xs-center": "MuiGrid-justify-xs-center-65",
+                      "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-66",
+                      "justify-xs-space-around": "MuiGrid-justify-xs-space-around-68",
+                      "justify-xs-space-between": "MuiGrid-justify-xs-space-between-67",
+                      "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-69",
+                      "spacing-xs-16": "MuiGrid-spacing-xs-16-71",
+                      "spacing-xs-24": "MuiGrid-spacing-xs-24-72",
+                      "spacing-xs-32": "MuiGrid-spacing-xs-32-73",
+                      "spacing-xs-40": "MuiGrid-spacing-xs-40-74",
+                      "spacing-xs-8": "MuiGrid-spacing-xs-8-70",
+                      "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-54",
+                      "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-55",
+                      "zeroMinWidth": "MuiGrid-zeroMinWidth-50",
+                    }
+                  }
+                  component="div"
+                  container={true}
+                  direction="row"
+                  item={false}
+                  justify="center"
+                  lg={false}
+                  md={false}
+                  sm={false}
+                  spacing={16}
+                  wrap="wrap"
+                  xl={false}
+                  xs={false}
+                  zeroMinWidth={false}
+                >
+                  <div
+                    className="MuiGrid-container-48 MuiGrid-spacing-xs-16-71 MuiGrid-justify-xs-center-65"
+                  >
+                    <WithStyles(Grid)
+                      item={true}
+                    >
+                      <Grid
+                        alignContent="stretch"
+                        alignItems="stretch"
+                        classes={
+                          Object {
+                            "align-content-xs-center": "MuiGrid-align-content-xs-center-60",
+                            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-62",
+                            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-61",
+                            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-64",
+                            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-63",
+                            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-59",
+                            "align-items-xs-center": "MuiGrid-align-items-xs-center-56",
+                            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-58",
+                            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-57",
+                            "container": "MuiGrid-container-48",
+                            "direction-xs-column": "MuiGrid-direction-xs-column-51",
+                            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-52",
+                            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-53",
+                            "grid-lg-1": "MuiGrid-grid-lg-1-119",
+                            "grid-lg-10": "MuiGrid-grid-lg-10-128",
+                            "grid-lg-11": "MuiGrid-grid-lg-11-129",
+                            "grid-lg-12": "MuiGrid-grid-lg-12-130",
+                            "grid-lg-2": "MuiGrid-grid-lg-2-120",
+                            "grid-lg-3": "MuiGrid-grid-lg-3-121",
+                            "grid-lg-4": "MuiGrid-grid-lg-4-122",
+                            "grid-lg-5": "MuiGrid-grid-lg-5-123",
+                            "grid-lg-6": "MuiGrid-grid-lg-6-124",
+                            "grid-lg-7": "MuiGrid-grid-lg-7-125",
+                            "grid-lg-8": "MuiGrid-grid-lg-8-126",
+                            "grid-lg-9": "MuiGrid-grid-lg-9-127",
+                            "grid-lg-auto": "MuiGrid-grid-lg-auto-117",
+                            "grid-lg-true": "MuiGrid-grid-lg-true-118",
+                            "grid-md-1": "MuiGrid-grid-md-1-105",
+                            "grid-md-10": "MuiGrid-grid-md-10-114",
+                            "grid-md-11": "MuiGrid-grid-md-11-115",
+                            "grid-md-12": "MuiGrid-grid-md-12-116",
+                            "grid-md-2": "MuiGrid-grid-md-2-106",
+                            "grid-md-3": "MuiGrid-grid-md-3-107",
+                            "grid-md-4": "MuiGrid-grid-md-4-108",
+                            "grid-md-5": "MuiGrid-grid-md-5-109",
+                            "grid-md-6": "MuiGrid-grid-md-6-110",
+                            "grid-md-7": "MuiGrid-grid-md-7-111",
+                            "grid-md-8": "MuiGrid-grid-md-8-112",
+                            "grid-md-9": "MuiGrid-grid-md-9-113",
+                            "grid-md-auto": "MuiGrid-grid-md-auto-103",
+                            "grid-md-true": "MuiGrid-grid-md-true-104",
+                            "grid-sm-1": "MuiGrid-grid-sm-1-91",
+                            "grid-sm-10": "MuiGrid-grid-sm-10-100",
+                            "grid-sm-11": "MuiGrid-grid-sm-11-101",
+                            "grid-sm-12": "MuiGrid-grid-sm-12-102",
+                            "grid-sm-2": "MuiGrid-grid-sm-2-92",
+                            "grid-sm-3": "MuiGrid-grid-sm-3-93",
+                            "grid-sm-4": "MuiGrid-grid-sm-4-94",
+                            "grid-sm-5": "MuiGrid-grid-sm-5-95",
+                            "grid-sm-6": "MuiGrid-grid-sm-6-96",
+                            "grid-sm-7": "MuiGrid-grid-sm-7-97",
+                            "grid-sm-8": "MuiGrid-grid-sm-8-98",
+                            "grid-sm-9": "MuiGrid-grid-sm-9-99",
+                            "grid-sm-auto": "MuiGrid-grid-sm-auto-89",
+                            "grid-sm-true": "MuiGrid-grid-sm-true-90",
+                            "grid-xl-1": "MuiGrid-grid-xl-1-133",
+                            "grid-xl-10": "MuiGrid-grid-xl-10-142",
+                            "grid-xl-11": "MuiGrid-grid-xl-11-143",
+                            "grid-xl-12": "MuiGrid-grid-xl-12-144",
+                            "grid-xl-2": "MuiGrid-grid-xl-2-134",
+                            "grid-xl-3": "MuiGrid-grid-xl-3-135",
+                            "grid-xl-4": "MuiGrid-grid-xl-4-136",
+                            "grid-xl-5": "MuiGrid-grid-xl-5-137",
+                            "grid-xl-6": "MuiGrid-grid-xl-6-138",
+                            "grid-xl-7": "MuiGrid-grid-xl-7-139",
+                            "grid-xl-8": "MuiGrid-grid-xl-8-140",
+                            "grid-xl-9": "MuiGrid-grid-xl-9-141",
+                            "grid-xl-auto": "MuiGrid-grid-xl-auto-131",
+                            "grid-xl-true": "MuiGrid-grid-xl-true-132",
+                            "grid-xs-1": "MuiGrid-grid-xs-1-77",
+                            "grid-xs-10": "MuiGrid-grid-xs-10-86",
+                            "grid-xs-11": "MuiGrid-grid-xs-11-87",
+                            "grid-xs-12": "MuiGrid-grid-xs-12-88",
+                            "grid-xs-2": "MuiGrid-grid-xs-2-78",
+                            "grid-xs-3": "MuiGrid-grid-xs-3-79",
+                            "grid-xs-4": "MuiGrid-grid-xs-4-80",
+                            "grid-xs-5": "MuiGrid-grid-xs-5-81",
+                            "grid-xs-6": "MuiGrid-grid-xs-6-82",
+                            "grid-xs-7": "MuiGrid-grid-xs-7-83",
+                            "grid-xs-8": "MuiGrid-grid-xs-8-84",
+                            "grid-xs-9": "MuiGrid-grid-xs-9-85",
+                            "grid-xs-auto": "MuiGrid-grid-xs-auto-75",
+                            "grid-xs-true": "MuiGrid-grid-xs-true-76",
+                            "item": "MuiGrid-item-49",
+                            "justify-xs-center": "MuiGrid-justify-xs-center-65",
+                            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-66",
+                            "justify-xs-space-around": "MuiGrid-justify-xs-space-around-68",
+                            "justify-xs-space-between": "MuiGrid-justify-xs-space-between-67",
+                            "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-69",
+                            "spacing-xs-16": "MuiGrid-spacing-xs-16-71",
+                            "spacing-xs-24": "MuiGrid-spacing-xs-24-72",
+                            "spacing-xs-32": "MuiGrid-spacing-xs-32-73",
+                            "spacing-xs-40": "MuiGrid-spacing-xs-40-74",
+                            "spacing-xs-8": "MuiGrid-spacing-xs-8-70",
+                            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-54",
+                            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-55",
+                            "zeroMinWidth": "MuiGrid-zeroMinWidth-50",
+                          }
+                        }
+                        component="div"
+                        container={false}
+                        direction="row"
+                        item={true}
+                        justify="flex-start"
+                        lg={false}
+                        md={false}
+                        sm={false}
+                        spacing={0}
+                        wrap="wrap"
+                        xl={false}
+                        xs={false}
+                        zeroMinWidth={false}
+                      >
+                        <div
+                          className="MuiGrid-item-49"
+                        >
+                          <WithStyles(Button)
+                            color="primary"
+                            disabled={true}
+                            onClick={[Function]}
+                            variant="contained"
+                          >
+                            <Button
+                              classes={
+                                Object {
+                                  "colorInherit": "MuiButton-colorInherit-166",
+                                  "contained": "MuiButton-contained-156",
+                                  "containedPrimary": "MuiButton-containedPrimary-157",
+                                  "containedSecondary": "MuiButton-containedSecondary-158",
+                                  "disabled": "MuiButton-disabled-165",
+                                  "extendedFab": "MuiButton-extendedFab-163",
+                                  "fab": "MuiButton-fab-162",
+                                  "flat": "MuiButton-flat-150",
+                                  "flatPrimary": "MuiButton-flatPrimary-151",
+                                  "flatSecondary": "MuiButton-flatSecondary-152",
+                                  "focusVisible": "MuiButton-focusVisible-164",
+                                  "fullWidth": "MuiButton-fullWidth-170",
+                                  "label": "MuiButton-label-146",
+                                  "mini": "MuiButton-mini-167",
+                                  "outlined": "MuiButton-outlined-153",
+                                  "outlinedPrimary": "MuiButton-outlinedPrimary-154",
+                                  "outlinedSecondary": "MuiButton-outlinedSecondary-155",
+                                  "raised": "MuiButton-raised-159",
+                                  "raisedPrimary": "MuiButton-raisedPrimary-160",
+                                  "raisedSecondary": "MuiButton-raisedSecondary-161",
+                                  "root": "MuiButton-root-145",
+                                  "sizeLarge": "MuiButton-sizeLarge-169",
+                                  "sizeSmall": "MuiButton-sizeSmall-168",
+                                  "text": "MuiButton-text-147",
+                                  "textPrimary": "MuiButton-textPrimary-148",
+                                  "textSecondary": "MuiButton-textSecondary-149",
+                                }
+                              }
+                              color="primary"
+                              component="button"
+                              disableFocusRipple={false}
+                              disabled={true}
+                              fullWidth={false}
+                              mini={false}
+                              onClick={[Function]}
+                              size="medium"
+                              type="button"
+                              variant="contained"
+                            >
+                              <WithStyles(ButtonBase)
+                                className="MuiButton-root-145 MuiButton-contained-156 MuiButton-containedPrimary-157 MuiButton-raised-159 MuiButton-raisedPrimary-160 MuiButton-disabled-165"
+                                component="button"
+                                disabled={true}
+                                focusRipple={true}
+                                focusVisibleClassName="MuiButton-focusVisible-164"
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                <ButtonBase
+                                  centerRipple={false}
+                                  className="MuiButton-root-145 MuiButton-contained-156 MuiButton-containedPrimary-157 MuiButton-raised-159 MuiButton-raisedPrimary-160 MuiButton-disabled-165"
+                                  classes={
+                                    Object {
+                                      "disabled": "MuiButtonBase-disabled-172",
+                                      "focusVisible": "MuiButtonBase-focusVisible-173",
+                                      "root": "MuiButtonBase-root-171",
+                                    }
+                                  }
+                                  component="button"
+                                  disableRipple={false}
+                                  disableTouchRipple={false}
+                                  disabled={true}
+                                  focusRipple={true}
+                                  focusVisibleClassName="MuiButton-focusVisible-164"
+                                  onClick={[Function]}
+                                  tabIndex="0"
+                                  type="button"
+                                >
+                                  <button
+                                    className="MuiButtonBase-root-171 MuiButtonBase-disabled-172 MuiButton-root-145 MuiButton-contained-156 MuiButton-containedPrimary-157 MuiButton-raised-159 MuiButton-raisedPrimary-160 MuiButton-disabled-165"
+                                    disabled={true}
+                                    onBlur={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                    tabIndex="-1"
+                                    type="button"
+                                  >
+                                    <span
+                                      className="MuiButton-label-146"
+                                    >
+                                      Search
+                                    </span>
+                                  </button>
+                                </ButtonBase>
+                              </WithStyles(ButtonBase)>
+                            </Button>
+                          </WithStyles(Button)>
+                        </div>
+                      </Grid>
+                    </WithStyles(Grid)>
+                    <WithStyles(Grid)
+                      item={true}
+                    >
+                      <Grid
+                        alignContent="stretch"
+                        alignItems="stretch"
+                        classes={
+                          Object {
+                            "align-content-xs-center": "MuiGrid-align-content-xs-center-60",
+                            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-62",
+                            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-61",
+                            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-64",
+                            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-63",
+                            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-59",
+                            "align-items-xs-center": "MuiGrid-align-items-xs-center-56",
+                            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-58",
+                            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-57",
+                            "container": "MuiGrid-container-48",
+                            "direction-xs-column": "MuiGrid-direction-xs-column-51",
+                            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-52",
+                            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-53",
+                            "grid-lg-1": "MuiGrid-grid-lg-1-119",
+                            "grid-lg-10": "MuiGrid-grid-lg-10-128",
+                            "grid-lg-11": "MuiGrid-grid-lg-11-129",
+                            "grid-lg-12": "MuiGrid-grid-lg-12-130",
+                            "grid-lg-2": "MuiGrid-grid-lg-2-120",
+                            "grid-lg-3": "MuiGrid-grid-lg-3-121",
+                            "grid-lg-4": "MuiGrid-grid-lg-4-122",
+                            "grid-lg-5": "MuiGrid-grid-lg-5-123",
+                            "grid-lg-6": "MuiGrid-grid-lg-6-124",
+                            "grid-lg-7": "MuiGrid-grid-lg-7-125",
+                            "grid-lg-8": "MuiGrid-grid-lg-8-126",
+                            "grid-lg-9": "MuiGrid-grid-lg-9-127",
+                            "grid-lg-auto": "MuiGrid-grid-lg-auto-117",
+                            "grid-lg-true": "MuiGrid-grid-lg-true-118",
+                            "grid-md-1": "MuiGrid-grid-md-1-105",
+                            "grid-md-10": "MuiGrid-grid-md-10-114",
+                            "grid-md-11": "MuiGrid-grid-md-11-115",
+                            "grid-md-12": "MuiGrid-grid-md-12-116",
+                            "grid-md-2": "MuiGrid-grid-md-2-106",
+                            "grid-md-3": "MuiGrid-grid-md-3-107",
+                            "grid-md-4": "MuiGrid-grid-md-4-108",
+                            "grid-md-5": "MuiGrid-grid-md-5-109",
+                            "grid-md-6": "MuiGrid-grid-md-6-110",
+                            "grid-md-7": "MuiGrid-grid-md-7-111",
+                            "grid-md-8": "MuiGrid-grid-md-8-112",
+                            "grid-md-9": "MuiGrid-grid-md-9-113",
+                            "grid-md-auto": "MuiGrid-grid-md-auto-103",
+                            "grid-md-true": "MuiGrid-grid-md-true-104",
+                            "grid-sm-1": "MuiGrid-grid-sm-1-91",
+                            "grid-sm-10": "MuiGrid-grid-sm-10-100",
+                            "grid-sm-11": "MuiGrid-grid-sm-11-101",
+                            "grid-sm-12": "MuiGrid-grid-sm-12-102",
+                            "grid-sm-2": "MuiGrid-grid-sm-2-92",
+                            "grid-sm-3": "MuiGrid-grid-sm-3-93",
+                            "grid-sm-4": "MuiGrid-grid-sm-4-94",
+                            "grid-sm-5": "MuiGrid-grid-sm-5-95",
+                            "grid-sm-6": "MuiGrid-grid-sm-6-96",
+                            "grid-sm-7": "MuiGrid-grid-sm-7-97",
+                            "grid-sm-8": "MuiGrid-grid-sm-8-98",
+                            "grid-sm-9": "MuiGrid-grid-sm-9-99",
+                            "grid-sm-auto": "MuiGrid-grid-sm-auto-89",
+                            "grid-sm-true": "MuiGrid-grid-sm-true-90",
+                            "grid-xl-1": "MuiGrid-grid-xl-1-133",
+                            "grid-xl-10": "MuiGrid-grid-xl-10-142",
+                            "grid-xl-11": "MuiGrid-grid-xl-11-143",
+                            "grid-xl-12": "MuiGrid-grid-xl-12-144",
+                            "grid-xl-2": "MuiGrid-grid-xl-2-134",
+                            "grid-xl-3": "MuiGrid-grid-xl-3-135",
+                            "grid-xl-4": "MuiGrid-grid-xl-4-136",
+                            "grid-xl-5": "MuiGrid-grid-xl-5-137",
+                            "grid-xl-6": "MuiGrid-grid-xl-6-138",
+                            "grid-xl-7": "MuiGrid-grid-xl-7-139",
+                            "grid-xl-8": "MuiGrid-grid-xl-8-140",
+                            "grid-xl-9": "MuiGrid-grid-xl-9-141",
+                            "grid-xl-auto": "MuiGrid-grid-xl-auto-131",
+                            "grid-xl-true": "MuiGrid-grid-xl-true-132",
+                            "grid-xs-1": "MuiGrid-grid-xs-1-77",
+                            "grid-xs-10": "MuiGrid-grid-xs-10-86",
+                            "grid-xs-11": "MuiGrid-grid-xs-11-87",
+                            "grid-xs-12": "MuiGrid-grid-xs-12-88",
+                            "grid-xs-2": "MuiGrid-grid-xs-2-78",
+                            "grid-xs-3": "MuiGrid-grid-xs-3-79",
+                            "grid-xs-4": "MuiGrid-grid-xs-4-80",
+                            "grid-xs-5": "MuiGrid-grid-xs-5-81",
+                            "grid-xs-6": "MuiGrid-grid-xs-6-82",
+                            "grid-xs-7": "MuiGrid-grid-xs-7-83",
+                            "grid-xs-8": "MuiGrid-grid-xs-8-84",
+                            "grid-xs-9": "MuiGrid-grid-xs-9-85",
+                            "grid-xs-auto": "MuiGrid-grid-xs-auto-75",
+                            "grid-xs-true": "MuiGrid-grid-xs-true-76",
+                            "item": "MuiGrid-item-49",
+                            "justify-xs-center": "MuiGrid-justify-xs-center-65",
+                            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-66",
+                            "justify-xs-space-around": "MuiGrid-justify-xs-space-around-68",
+                            "justify-xs-space-between": "MuiGrid-justify-xs-space-between-67",
+                            "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-69",
+                            "spacing-xs-16": "MuiGrid-spacing-xs-16-71",
+                            "spacing-xs-24": "MuiGrid-spacing-xs-24-72",
+                            "spacing-xs-32": "MuiGrid-spacing-xs-32-73",
+                            "spacing-xs-40": "MuiGrid-spacing-xs-40-74",
+                            "spacing-xs-8": "MuiGrid-spacing-xs-8-70",
+                            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-54",
+                            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-55",
+                            "zeroMinWidth": "MuiGrid-zeroMinWidth-50",
+                          }
+                        }
+                        component="div"
+                        container={false}
+                        direction="row"
+                        item={true}
+                        justify="flex-start"
+                        lg={false}
+                        md={false}
+                        sm={false}
+                        spacing={0}
+                        wrap="wrap"
+                        xl={false}
+                        xs={false}
+                        zeroMinWidth={false}
+                      >
+                        <div
+                          className="MuiGrid-item-49"
+                        >
+                          <WithStyles(Button)
+                            color="primary"
+                            onClick={[Function]}
+                            variant="outlined"
+                          >
+                            <Button
+                              classes={
+                                Object {
+                                  "colorInherit": "MuiButton-colorInherit-166",
+                                  "contained": "MuiButton-contained-156",
+                                  "containedPrimary": "MuiButton-containedPrimary-157",
+                                  "containedSecondary": "MuiButton-containedSecondary-158",
+                                  "disabled": "MuiButton-disabled-165",
+                                  "extendedFab": "MuiButton-extendedFab-163",
+                                  "fab": "MuiButton-fab-162",
+                                  "flat": "MuiButton-flat-150",
+                                  "flatPrimary": "MuiButton-flatPrimary-151",
+                                  "flatSecondary": "MuiButton-flatSecondary-152",
+                                  "focusVisible": "MuiButton-focusVisible-164",
+                                  "fullWidth": "MuiButton-fullWidth-170",
+                                  "label": "MuiButton-label-146",
+                                  "mini": "MuiButton-mini-167",
+                                  "outlined": "MuiButton-outlined-153",
+                                  "outlinedPrimary": "MuiButton-outlinedPrimary-154",
+                                  "outlinedSecondary": "MuiButton-outlinedSecondary-155",
+                                  "raised": "MuiButton-raised-159",
+                                  "raisedPrimary": "MuiButton-raisedPrimary-160",
+                                  "raisedSecondary": "MuiButton-raisedSecondary-161",
+                                  "root": "MuiButton-root-145",
+                                  "sizeLarge": "MuiButton-sizeLarge-169",
+                                  "sizeSmall": "MuiButton-sizeSmall-168",
+                                  "text": "MuiButton-text-147",
+                                  "textPrimary": "MuiButton-textPrimary-148",
+                                  "textSecondary": "MuiButton-textSecondary-149",
+                                }
+                              }
+                              color="primary"
+                              component="button"
+                              disableFocusRipple={false}
+                              disabled={false}
+                              fullWidth={false}
+                              mini={false}
+                              onClick={[Function]}
+                              size="medium"
+                              type="button"
+                              variant="outlined"
+                            >
+                              <WithStyles(ButtonBase)
+                                className="MuiButton-root-145 MuiButton-outlined-153 MuiButton-outlinedPrimary-154"
+                                component="button"
+                                disabled={false}
+                                focusRipple={true}
+                                focusVisibleClassName="MuiButton-focusVisible-164"
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                <ButtonBase
+                                  centerRipple={false}
+                                  className="MuiButton-root-145 MuiButton-outlined-153 MuiButton-outlinedPrimary-154"
+                                  classes={
+                                    Object {
+                                      "disabled": "MuiButtonBase-disabled-172",
+                                      "focusVisible": "MuiButtonBase-focusVisible-173",
+                                      "root": "MuiButtonBase-root-171",
+                                    }
+                                  }
+                                  component="button"
+                                  disableRipple={false}
+                                  disableTouchRipple={false}
+                                  disabled={false}
+                                  focusRipple={true}
+                                  focusVisibleClassName="MuiButton-focusVisible-164"
+                                  onClick={[Function]}
+                                  tabIndex="0"
+                                  type="button"
+                                >
+                                  <button
+                                    className="MuiButtonBase-root-171 MuiButton-root-145 MuiButton-outlined-153 MuiButton-outlinedPrimary-154"
+                                    disabled={false}
+                                    onBlur={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                    tabIndex="0"
+                                    type="button"
+                                  >
+                                    <span
+                                      className="MuiButton-label-146"
+                                    >
+                                      Clear
+                                    </span>
+                                    <NoSsr
+                                      defer={false}
+                                      fallback={null}
+                                    >
+                                      <WithStyles(TouchRipple)
+                                        center={false}
+                                        innerRef={[Function]}
+                                      >
+                                        <TouchRipple
+                                          center={false}
+                                          classes={
+                                            Object {
+                                              "child": "MuiTouchRipple-child-178",
+                                              "childLeaving": "MuiTouchRipple-childLeaving-179",
+                                              "childPulsate": "MuiTouchRipple-childPulsate-180",
+                                              "ripple": "MuiTouchRipple-ripple-175",
+                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate-177",
+                                              "rippleVisible": "MuiTouchRipple-rippleVisible-176",
+                                              "root": "MuiTouchRipple-root-174",
+                                            }
+                                          }
+                                        >
+                                          <TransitionGroup
+                                            childFactory={[Function]}
+                                            className="MuiTouchRipple-root-174"
+                                            component="span"
+                                            enter={true}
+                                            exit={true}
+                                          >
+                                            <span
+                                              className="MuiTouchRipple-root-174"
+                                            />
+                                          </TransitionGroup>
+                                        </TouchRipple>
+                                      </WithStyles(TouchRipple)>
+                                    </NoSsr>
+                                  </button>
+                                </ButtonBase>
+                              </WithStyles(ButtonBase)>
+                            </Button>
+                          </WithStyles(Button)>
+                        </div>
+                      </Grid>
+                    </WithStyles(Grid)>
+                  </div>
+                </Grid>
+              </WithStyles(Grid)>
+            </div>
+          </div>
+        </div>
+      </Search>
+    </Connect(Search)>
+  </WithStyles(Connect(Search))>
+</Provider>
+`;

@@ -1,0 +1,6 @@
+export const SET_ARTIST_INFO = "SET_ARTIST_INFO";
+export const POPULATE_EVENTS = "POPULATE_EVENTS";
+export const RESET_STATE = "RESET_STATE";
+
+
+

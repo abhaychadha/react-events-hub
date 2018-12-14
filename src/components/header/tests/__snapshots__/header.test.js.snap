@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header header renders 1`] = `
+<Header
+  classes={
+    Object {
+      "appBar": "Header-appBar-2",
+      "card": "Header-card-9",
+      "cardContent": "Header-cardContent-11",
+      "cardGrid": "Header-cardGrid-8",
+      "cardMedia": "Header-cardMedia-10",
+      "heroButtons": "Header-heroButtons-6",
+      "heroContent": "Header-heroContent-5",
+      "heroUnit": "Header-heroUnit-4",
+      "hidden": "Header-hidden-1",
+      "icon": "Header-icon-3",
+      "layout": "Header-layout-7",
+      "typography": "Header-typography-12",
+    }
+  }
+/>
+`;

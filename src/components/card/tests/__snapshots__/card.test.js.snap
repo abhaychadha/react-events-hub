@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledCard Card renders with style 1`] = `
+<CardBlock
+  classes={
+    Object {
+      "card": "CardBlock-card-1",
+      "linkUrl": "CardBlock-linkUrl-3",
+      "media": "CardBlock-media-2",
+    }
+  }
+/>
+`;

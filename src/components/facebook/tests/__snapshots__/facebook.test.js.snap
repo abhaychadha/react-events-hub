@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledFacebook facebook renders with style 1`] = `
+<Facebook
+  classes={
+    Object {
+      "faceboolLinkContainer": "Facebook-faceboolLinkContainer-1",
+    }
+  }
+/>
+`;
