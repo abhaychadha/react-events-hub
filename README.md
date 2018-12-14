@@ -19,3 +19,7 @@ The components are a part of two directories: **containers** and **components**
 All the stateful components and components connected with redux store are the part of containers directory and the stateless components are contained in components directory
 
 Common application styles are part of the **styles** directory and can be injected in the components using withStyles utility
+
+**Utils** directory is created to store common configurations and methods which are being used across the application. ** Utility.js** contains the common methods **, services.js** contains the API endpoints and **api-wrapper.js** is the proxy module for making api calls and massaging the responses in a common format across the application
+
+**Static** directory contains the static assets used in the application
