@@ -48,6 +48,22 @@
     "redux-mock-store": "^1.5.3"
   },
   "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      },
+      "./src/components/": {
+        "branches": 40,
+        "statements": 40
+      },
+      "./src/reducers/*.js": {
+        "statements": 90
+      },
+      "coverageDirectory":".src/coverage/"
+    },
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]

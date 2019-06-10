@@ -1,6 +1,6 @@
 import React from "react";
 import Events from "../events";
-import { mount } from "enzyme";
+import { mount, shallow } from "enzyme";
 import { eventStyle } from "../events.style";
 import { withStyles } from "@material-ui/core/styles";
 import { Provider } from "react-redux";
@@ -55,7 +55,7 @@ describe("Events", () => {
       );
   };
   test("Events Should Render Correctly", () => {    
-    const mountComponent = mount(getComponent(InitialState, {}, props));
+    const mountComponent = shallow(getComponent(InitialState, {}, props));
     expect(mountComponent).toMatchSnapshot();
   });
 
